@@ -6,7 +6,6 @@ function Project() {
         <div id="project" className="Project-page">
             <h2>Projects</h2>
             <p className="tbc">TO BE CONTINUED</p>
-            
         </div>
     );
 };
