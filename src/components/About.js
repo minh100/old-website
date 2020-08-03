@@ -18,10 +18,7 @@ function About() {
                     I am pursuing a Bachelor of Science in Computer Science. 
                     Although, I am still figuring out which field of CS I would like to pursue, this project was my little stab at web development.
                     Aside from CS I enjoy being social and being with friends.
-                    Some things I like to do with or without friends is play games (video/board), play volleyball, learn and enjoy Korean culture, and watch horror movies (only with friends).
-                    
-
-
+                    Some things I like to do with or without friends is play games (video/board), play volleyball, learn and enjoy Korean culture, and watch horror movies ( only with friends though :) ).
                 </p>
             </div>
             <div className="about-pictures">

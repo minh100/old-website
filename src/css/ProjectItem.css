@@ -1,0 +1,23 @@
+.container {
+    box-sizing: border-box;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #4B9CD3;
+    height: 50vh;
+    width: 40vh;
+    color: white;
+    letter-spacing: 0;
+    font-size: calc(8px + 2vh);
+    padding: 3px;
+}
+
+.container h3 {
+    text-decoration: underline;
+    padding-top: 10px;
+}
+
+.container p {
+    padding-top: 15px;
+    letter-spacing: -1px;
+    text-size-adjust: 80%;
+}

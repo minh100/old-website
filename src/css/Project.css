@@ -3,9 +3,19 @@
     color: #4B9CD3;
     text-align: center;
     padding-top: 30px;
-    height: 50vmin;
+    height: 80vh;
 }
 
-.tbc {
-    top: 60px;
+.project-item-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    height: 80vh;
+}
+
+@media screen and (max-width: 780px) {
+    .Project-page {
+        height: 115vh;
+    }
 }

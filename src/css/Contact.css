@@ -1,4 +1,6 @@
-
+.contact-page {
+    border-top: 30px;
+}
 .icons {
     display: flex;
     justify-content: space-evenly;
