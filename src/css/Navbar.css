@@ -1,0 +1,118 @@
+.NavbarItems {
+    background-color: #4B9CD3;
+    display: flex;
+    justify-content: center;
+    height: 65px;
+    align-items: center;
+    
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    
+}
+
+.navbar-logo {
+    color: white;
+    text-decoration: none;
+    justify-self: start;
+    margin-left: 20px;
+    margin-bottom: 3px;
+    
+}
+
+.menu-icon {
+    display: none;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 5px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+    
+
+}
+
+.nav-links {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    
+}
+
+.nav-links:hover {
+    background: #615D6C;
+    border-radius: 20px;
+    transition: all 0.2s ease-out;
+}
+
+
+@media screen and (max-width: 960px) {
+    .NavbarItems {
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .navbar-logo {
+        position: absolute;
+        left: 0;
+        bottom: 2.2rem;
+        transform: translate(25%, 60%);
+    
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        top: 65px;
+        left: -110%;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+
+    .nav-menu.active {
+        background: #4B9CD3;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+
+    .nav-links {
+        text-align: center;
+        padding: 0.5rem;
+        width: 100%;
+        display: table;
+    }
+
+    .nav-links:hover {
+        border-radius: 0;
+    }
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-150%, 60%);
+        font-size: 1.2rem;
+        cursor: pointer;
+        color: white;
+    }
+
+    .fa-times {
+        font-size: 1.4rem;
+    }
+
+}
+

@@ -1,0 +1,11 @@
+.Project-page {
+    font-size: calc(20px + 2vmin);
+    color: #4B9CD3;
+    text-align: center;
+    padding-top: 30px;
+    height: 50vmin;
+}
+
+.tbc {
+    top: 60px;
+}
