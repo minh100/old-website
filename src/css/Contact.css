@@ -1,5 +1,7 @@
 .contact-page {
-    border-top: 30px;
+    /* border-top: 30px; */
+    margin-top: 4%;
+    
 }
 .icons {
     display: flex;

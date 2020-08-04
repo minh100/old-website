@@ -1,6 +1,7 @@
 .About-page {
     min-height: 50vh;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     
 }
