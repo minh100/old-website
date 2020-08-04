@@ -1,7 +1,5 @@
 .contact-page {
-    /* border-top: 30px; */
-    margin-top: 4%;
-    
+    border-top: 30px;    
 }
 .icons {
     display: flex;
@@ -47,4 +45,10 @@ a:hover {
     margin-bottom: 10px;
 
     
+}
+
+@media screen and (max-width: 600px) {
+    .contact-page {
+        margin-top: 115vh;
+    }
 }
