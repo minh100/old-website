@@ -8,7 +8,7 @@
 .about-heading {
     font-size: calc(20px + 2vmin);
     writing-mode: vertical-rl;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     padding-right: 15px;
     transform: rotate(180deg);
     color: #4B9CD3;
