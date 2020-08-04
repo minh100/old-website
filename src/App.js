@@ -13,8 +13,11 @@ function App() {
         <h1 >Welcome</h1>
       </div>
       <About />
-      <Project />
-      <Contact />
+      <div className="test">
+        <Project />
+        <Contact />
+      </div>
+
     </div>
 
   );

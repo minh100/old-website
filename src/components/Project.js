@@ -17,7 +17,7 @@ function Project() {
                 <ProjectItem name="Next Drama"
                     description='A fun program to help me decide on which tv show or drama to watch next.
                     It randomly assigns each item a new number everytime and the program randomly chooses the item.
-                    The data is can be written and read from a file that is saved locally.'
+                    The data can be written and read from a file that is saved locally.'
 
                 />
 

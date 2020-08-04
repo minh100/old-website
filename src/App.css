@@ -10,6 +10,10 @@
   flex-wrap: wrap;
 }
 
+.test {
+  display: inline-block;
+}
+
 .Welcome-page {
   text-align: center;
   min-height: 100vh;

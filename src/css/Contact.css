@@ -44,11 +44,10 @@ a:hover {
     padding-right: 15px;
     margin-bottom: 10px;
 
-    
 }
 
 @media screen and (max-width: 600px) {
-    .contact-page {
+    /* .contact-page {
         margin-top: 115vh;
-    }
+    } */
 }
