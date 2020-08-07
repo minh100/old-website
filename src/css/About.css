@@ -9,6 +9,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     
+    
 }
 
 .about-heading {
@@ -57,7 +58,7 @@
 }
 
 
-@media screen and (min-width: 780px) {
+@media screen and (max-width: 780px) {
     .about-pictures {
         width: 85vmin;
         margin: auto;
@@ -69,7 +70,7 @@
         
     }
 
-    .About-page{
+    .About-page {
         flex-wrap: wrap;
     }
 }
