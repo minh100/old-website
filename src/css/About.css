@@ -57,7 +57,7 @@
 }
 
 
-@media screen and (max-width: 780px) {
+@media screen and (min-width: 780px) {
     .about-pictures {
         width: 85vmin;
         margin: auto;
