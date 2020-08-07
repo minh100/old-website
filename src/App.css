@@ -16,12 +16,14 @@
 
 .Welcome-page {
   text-align: center;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: calc(100vh + 10px);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(100px + 5vmin);
+  /* font-size: calc(100px + 5vmin); */
+  font-size: 8rem;
   background-image: url(./images/MinhPic.jpg);
   background-size: cover;
   background-position-y: -400px;

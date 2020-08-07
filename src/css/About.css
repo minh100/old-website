@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    border: 0;
+}
+
 .About-page {
     min-height: 50vh;
     display: flex;
@@ -27,7 +32,8 @@
     color: black;
     margin-left: 30px;
     margin-right: 30px;
-    font-size: calc(6px + 2vmin);
+    /* font-size: calc(6px + 2vmin); */
+    font-size: 1.2rem;
     margin-top: 10px;
     letter-spacing: -.2px;
 }
