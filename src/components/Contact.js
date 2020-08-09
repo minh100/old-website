@@ -11,7 +11,7 @@ function Contact() {
                     
                 </div>
                 <div className="linkedin">
-                    <a href="www.linkedin.com/in/minh100"><i className="fab fa-linkedin"></i> Linkedin</a>
+                    <a href="https://www.linkedin.com/in/minh100/"><i className="fab fa-linkedin"></i> Linkedin</a>
 
                 </div>
                 <div className="github">
