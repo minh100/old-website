@@ -27,6 +27,14 @@ To start the app on localhost:
 
 > npm start
 
+# Github pages setup and deploy
+
+Use this [link](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f) for reference
+
+Basically use the following command to deploy to GitHub Pages:
+
+> npm run deploy
+
 
 
 
